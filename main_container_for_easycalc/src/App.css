@@ -65,6 +65,24 @@ body {
   gap: 24px;
 }
 
+/* Calculator specific styles */
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    gap: 16px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+}
+
 .subtitle {
   color: var(--kavia-orange);
   font-weight: 500;
